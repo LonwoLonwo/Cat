@@ -96,7 +96,7 @@ public class Cat
         else if(weight > maxWeight) {
             return "Exploded";
         }
-        else if(weight > originWeight || this.weight > this.weight) {
+        else if(weight > originWeight || weight > this.originWeight) {
             return "Sleeping";
         }
         else {
